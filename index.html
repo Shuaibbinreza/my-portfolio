@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1 class="hero-text">
+          Hello, I'm <span class="highlight">Nancy</span><br>
+          Welcome to my World.
+        </h1>
+        <div class="social-links">
+          <a href="https://linkedin.com" target="_blank" class="social-link">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com" target="_blank" class="social-link">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank" class="social-link">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" class="social-link">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+      <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174" alt="Working space" class="hero-image" style="height: 500px; width: 500px;">
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-container" style="display: flex; justify-content: space-between;">
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330" alt="Nancy" style="height: 500px; width: 500px;">
+        </div>
+        <div class="about-content">
+          <h2>About Me</h2>
+          <p class="about-text">
+            I'm a passionate developer with expertise in building modern web applications. 
+            With a keen eye for design and a love for clean code, I create elegant solutions 
+            that make a difference. My journey in tech has been driven by curiosity and a 
+            constant desire to learn and grow.
+          </p>
+          <div class="about-details">
+            <div class="detail-item">
+              <span class="detail-label">Name:</span>
+              <span class="detail-value">Nancy Chen</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Email:</span>
+              <span class="detail-value">nancy@example.com</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Location:</span>
+              <span class="detail-value">San Francisco, CA</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Role:</span>
+              <span class="detail-value">Full Stack Developer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skills-category">
+          <h3>Frontend Development</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">🌐</div>
+              <h4>HTML5</h4>
+              <div class="skill-level">
+                <div class="skill-progress" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">🎨</div>
+              <h4>CSS3</h4>
+              <div class="skill-level">
+                <div class="skill-progress" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">⚡</div>
+              <h4>JavaScript</h4>
+              <div class="skill-level">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3>Backend Development</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">🚀</div>
+              <h4>Node.js</h4>
+              <div class="skill-level">
+                <div class="skill-progress" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">🐍</div>
+              <h4>Python</h4>
+              <div class="skill-level">
+                <div class="skill-progress" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience">
+      <h2>Work Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2022 - Present</div>
+            <h3>Senior Frontend Developer</h3>
+            <p class="company-name">Tech Company Inc.</p>
+            <ul class="experience-details">
+              <li>Led a team of 5 developers in building modern web applications</li>
+              <li>Implemented responsive designs and improved site performance by 40%</li>
+              <li>Mentored junior developers and conducted code reviews</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2020 - 2022</div>
+            <h3>Full Stack Developer</h3>
+            <p class="company-name">Digital Solutions Ltd</p>
+            <ul class="experience-details">
+              <li>Developed and maintained multiple client websites</li>
+              <li>Created RESTful APIs and implemented database solutions</li>
+              <li>Collaborated with design team to implement UI/UX improvements</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="education">
+      <h2>Education</h2>
+      <div class="education-grid">
+        <div class="education-card">
+          <div class="education-year">2020 - 2024</div>
+          <h3>Bachelor of Computer Science</h3>
+          <p class="school-name">University Name</p>
+          <p class="education-details">
+            Relevant coursework: Data Structures, Algorithms, Web Development, Database Systems
+          </p>
+          <div class="achievements">
+            <span>GPA: 3.8/4.0</span>
+            <span>Dean's List</span>
+          </div>
+        </div>
+        <div class="education-card">
+          <div class="education-year">2019 - 2020</div>
+          <h3>Web Development Bootcamp</h3>
+          <p class="school-name">Coding Academy</p>
+          <p class="education-details">
+            Intensive program focusing on full-stack development with modern technologies
+          </p>
+          <div class="achievements">
+            <span>Top Graduate</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="achievements-section">
+      <h2>Achievements & Certificates</h2>
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <div class="achievement-icon">🏆</div>
+          <h3>AWS Certified Developer</h3>
+          <p class="achievement-date">2023</p>
+          <p class="achievement-details">Amazon Web Services Certified Developer - Associate Level</p>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon">📜</div>
+          <h3>Google Cloud Certificate</h3>
+          <p class="achievement-date">2022</p>
+          <p class="achievement-details">Professional Cloud Developer Certification</p>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon">🎯</div>
+          <h3>Hackathon Winner</h3>
+          <p class="achievement-date">2021</p>
+          <p class="achievement-details">First place in Regional Tech Innovation Challenge</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Project 1</h3>
+          <p>A brief description of your first project goes here.</p>
+          <div class="project-links">
+            <a href="#" class="project-link">Live Demo</a>
+            <a href="#" class="project-link">Source Code</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Project 2</h3>
+          <p>A brief description of your second project goes here.</p>
+          <div class="project-links">
+            <a href="#" class="project-link">Live Demo</a>
+            <a href="#" class="project-link">Source Code</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Project 3</h3>
+          <p>A brief description of your third project goes here.</p>
+          <div class="project-links">
+            <a href="#" class="project-link">Live Demo</a>
+            <a href="#" class="project-link">Source Code</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Get in Touch</h2>
+      <div class="contact-content">
+        <form id="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" required placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" required placeholder="Your Email">
+          </div>
+          <div class="form-group">
+            <textarea id="message" required placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-social-links">
+        <a href="https://linkedin.com" target="_blank" class="social-link">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com" target="_blank" class="social-link">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://facebook.com" target="_blank" class="social-link">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="social-link">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
