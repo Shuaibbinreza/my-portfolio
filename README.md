@@ -4,8 +4,8 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 
 ## 🛠 Technologies Used
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** PHP (Laravel), MySQL
-- **Tools & Frameworks:** Vite, jQuery
+- **Backend:** Nothing Yet
+- **Tools & Frameworks:** Vite
 
 ## 🚀 Features
 - **About Me** - A brief introduction about myself.
@@ -45,15 +45,15 @@ portfolio/
    ```
 
 ## 🌐 Live Demo
-Check out the live version of my portfolio: [Your Live Link Here](#)
+Check out the live version of my portfolio: (https://shuaibbinreza.github.io/my-portfolio/)
 
 ## 🤝 Contributing
-Feel free to fork this repo and submit pull requests if you want to improve it!
+Feel free to fork this repo and submit pull requests to improve it!
 
 ## 📬 Contact
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn](#)
-- GitHub: [Your GitHub](#)
+- Email: shuaib6950@gmail.com
+- LinkedIn: (https://www.linkedin.com/in/shuaib-bin-reza/)
+- GitHub: (https://github.com/Shuaibbinreza)
 
 ---
 
