@@ -6,12 +6,6 @@
   --accent-color: #dbeafe;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -21,6 +15,16 @@ body {
   line-height: 1.5;
   color: var(--text-color);
   background-color: var(--bg-color);
+}
+
+.badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin: 5px;
 }
 
 /* Navbar */
@@ -251,7 +255,7 @@ body {
 }
 
 .skills-container {
-  max-width: 1200px;
+  max-width: 60%;
   margin: 0 auto;
 }
 
@@ -311,8 +315,8 @@ body {
 /* Experience Section */
 .experience {
   padding: 6rem 2rem;
-  max-width: 1200px;
   margin: 0 auto;
+  background-color: #f8fafc;
 }
 
 .experience h2 {
@@ -400,7 +404,7 @@ body {
 /* Education Section */
 .education {
   padding: 6rem 2rem;
-  background-color: #f8fafc;
+  /* background-color: #FFFFFF; */
 }
 
 .education h2 {
@@ -418,11 +422,8 @@ body {
 }
 
 .education-grid {
-  max-width: 1200px;
+  max-width: 70%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
 }
 
 .education-card {
@@ -682,11 +683,11 @@ textarea {
   transition-delay: 0.6s;
 }
 
-.submit-btn:hover {
+/* .submit-btn:hover {
   background-color: var(--secondary-color);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
-}
+} */
 
 /* Footer */
 .footer {
@@ -696,7 +697,7 @@ textarea {
 }
 
 /* Animations */
-@keyframes fadeInUp {
+/* @keyframes fadeInUp {
   from {
     opacity: 0;
     transform: translateY(20px);
@@ -714,7 +715,7 @@ textarea {
   to {
     opacity: 1;
   }
-}
+}*/
 
 @keyframes wave {
   0%, 100% {
@@ -723,10 +724,10 @@ textarea {
   50% {
     transform: translateY(-10px);
   }
-}
+} 
 
 /* Responsive Design */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .nav-content {
     flex-direction: column;
     gap: 1rem;
@@ -795,4 +796,4 @@ textarea {
     height: 40px;
     font-size: 1.25rem;
   }
-}
+} */
