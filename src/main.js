@@ -37,12 +37,6 @@ const contactForm = document.getElementById('contact-form');
 
 contactForm.addEventListener('submit', (e) => {
   e.preventDefault();
-  
-  const name = document.getElementById('name').value;
-  const email = document.getElementById('email').value;
-  const message = document.getElementById('message').value;
-  
-  // Here you would typically send this data to a server
   console.log('Form submitted:', { name, email, message });
   
   // Clear form
@@ -57,30 +51,6 @@ const observerOptions = {
   threshold: 0.2,
   rootMargin: '0px 0px -50px 0px'
 };
-
-// Project cards animation
-const projectCards = document.querySelectorAll('.project-card');
-const projectObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.style.opacity = '1';
-      entry.target.style.transform = 'translateY(0)';
-    }
-  });
-}, observerOptions);
-
-projectCards.forEach(card => {
-  card.style.opacity = '0';
-  card.style.transform = 'translateY(20px)';
-  card.style.transition = 'all 0.5s ease-out';
-  projectObserver.observe(card);
-});
-
-// Skill tags animation
-const skillTags = document.querySelectorAll('.skill-tags span');
-skillTags.forEach((tag, index) => {
-  tag.style.transitionDelay = `${index * 0.1}s`;
-});
 
 // Section animations
 const animatedSections = document.querySelectorAll('.about, .education, .contact, .skills-section, .experience, .achievements-section');
@@ -107,26 +77,9 @@ const educationObserver = new IntersectionObserver((entries) => {
   });
 }, observerOptions);
 
-educationCards.forEach(card => {
-  educationObserver.observe(card);
-});
-
-// Skills progress animation
-const skillItems = document.querySelectorAll('.skill-item');
-const skillObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      const progress = entry.target.querySelector('.skill-progress');
-      if (progress) {
-        progress.style.width = progress.style.width || '0%';
-      }
-    }
-  });
-}, observerOptions);
-
-skillItems.forEach(item => {
-  skillObserver.observe(item);
-});
+// educationCards.forEach(card => {
+//   educationObserver.observe(card);
+// });
 
 // Timeline animation
 const timelineItems = document.querySelectorAll('.timeline-item');
